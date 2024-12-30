@@ -1,0 +1,20 @@
+{
+  "name": "nodeposthub",
+  "version": "1.0.0",
+  "description": "A Node.js application with authentication, profile management, and CRUD operations for posts, including profile picture support. Built using Express and MongoDB for secure and scalable backend services. This project is a Node.js application that provides user authentication, profile management, and CRUD operations for posts. It also supports profile picture uploads and liking/unliking posts. Built with Express, MongoDB, and EJS for templating, it delivers secure and scalable backend services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
